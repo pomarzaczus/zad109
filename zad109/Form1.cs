@@ -126,7 +126,7 @@ namespace zad109
             // Dodawanie danych z DataGridView
             foreach (Dictionary<string, string> row in sekwencjeidane)
             {
-              
+               
                     csvContent += string.Join(",", Array.ConvertAll(row.ToArray(), c => c.Value)) + Environment.NewLine;
                
                
